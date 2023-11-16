@@ -2,7 +2,6 @@ public class Data_sientist extends Personne {
 
     public Data_sientist(String nom) {
         super(nom);
-
     }
 
     @Override
