@@ -1,7 +1,7 @@
 public class Menuisier extends Personne {
 
-    public Menuisier(String nom) {
-        super(nom);
+    public Menuisier(String nom, String prenom, int age) {
+        super(nom, prenom, age);
     }
 
     @Override
