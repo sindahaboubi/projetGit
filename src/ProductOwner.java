@@ -1,7 +1,7 @@
 public class ProductOwner extends Personne {
 
-    public ProductOwner(String nom) {
-        super(nom);
+    public ProductOwner(String nom, String prenom, int age) {
+        super(nom, prenom, age);
     }
 
     @Override

@@ -1,8 +1,7 @@
 public class CyberSecurity extends Personne {
 
-    public CyberSecurity(String nom) {
-        super(nom);
-
+    public CyberSecurity(String nom, String prenom, int age) {
+        super(nom, prenom, age);
     }
 
     @Override

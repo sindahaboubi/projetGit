@@ -1,7 +1,7 @@
 public class Data_sientist extends Personne {
 
-    public Data_sientist(String nom) {
-        super(nom);
+    public Data_sientist(String nom, String prenom, int age) {
+        super(nom, prenom, age);
     }
 
     @Override
